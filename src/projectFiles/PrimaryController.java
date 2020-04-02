@@ -4,7 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.control.SelectionMode;
 
-public class Controller {
+public class PrimaryController {
 
     @FXML
     private ListView names;
