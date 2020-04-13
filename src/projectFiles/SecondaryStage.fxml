@@ -10,10 +10,10 @@
 <AnchorPane prefHeight="377.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectFiles.SecondaryController">
    <children>
       <Text layoutX="21.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: 700;" text="Pizza Order" />
-      <TextArea layoutX="21.0" layoutY="50.0" prefHeight="261.0" prefWidth="397.0" />
+      <TextArea fx:id="orderBox" layoutX="21.0" layoutY="50.0" prefHeight="261.0" prefWidth="397.0" />
       <Text layoutX="193.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Order Total:" />
-      <TextField layoutX="269.0" layoutY="325.0" />
-      <Button layoutX="21.0" layoutY="325.0" mnemonicParsing="false" prefWidth="50.0" text="Clear" />
-      <Button layoutX="86.0" layoutY="325.0" mnemonicParsing="false" prefWidth="50.0" text="Back" />
+      <TextField fx:id="priceBox" layoutX="269.0" layoutY="325.0" />
+      <Button fx:id="clrBtn2" layoutX="21.0" layoutY="325.0" mnemonicParsing="false" onAction="#clrBtnPress" prefWidth="50.0" text="Clear" />
+      <Button fx:id="backBtn" layoutX="86.0" layoutY="325.0" mnemonicParsing="false" onAction="#backBtnPress" prefWidth="50.0" text="Back" />
    </children>
 </AnchorPane>

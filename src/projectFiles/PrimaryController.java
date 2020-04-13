@@ -65,9 +65,9 @@ public class PrimaryController {
     private String[] allTops = {"Beef", "Cheese", "Chicken","Green Pepper", "Ham",
                 "Mushroom", "Onion", "Pepperoni", "Pineapple", "Sausage"};
     
-    private int GROW_SIZE = 4;
+    private static int GROW_SIZE = 4;
     
-    public Pizza[] order = new Pizza[GROW_SIZE];
+    public static Pizza[] order = new Pizza[GROW_SIZE];
     
     private int length = 0;
  
