@@ -25,7 +25,10 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
-
+/**
+ * @author Eliza Nieves
+ * @author Raheel Ozair
+ */
 public class PrimaryController {
 	
     @FXML
@@ -77,6 +80,7 @@ public class PrimaryController {
         names.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
         
         names1.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        result.setWrapText(true);
     }
     public void selectPizzaType(ActionEvent event) {
     	String pizzaSize = (String) size.getValue();

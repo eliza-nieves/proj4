@@ -3,6 +3,10 @@ package projectFiles;
 import java.util.ArrayList;
 import java.util.Collections;
 
+/**
+ * @author Eliza Nieves
+ * @author Raheel Ozair
+ */
 public class BuildYourOwn extends Pizza{
 	//members: String style
 	// String size

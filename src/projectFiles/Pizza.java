@@ -2,6 +2,10 @@ package projectFiles;
 
 import java.util.ArrayList;
 
+/**
+ * @author Eliza Nieves
+ * @author Raheel Ozair
+ */
 public abstract class Pizza {
 	protected String style;
 	protected String size;

@@ -3,6 +3,10 @@ package projectFiles;
 import java.util.Collections;
 import java.util.ArrayList;
 
+/**
+ * @author Eliza Nieves
+ * @author Raheel Ozair
+ */
 public class Deluxe extends Pizza{
 	//members: String style
 	// String size

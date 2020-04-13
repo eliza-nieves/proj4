@@ -9,6 +9,10 @@ import javafx.scene.control.SelectionMode;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
+/**
+ * @author Eliza Nieves
+ * @author Raheel Ozair
+ */
 public class SecondaryController {
 	
 	@FXML
@@ -27,6 +31,7 @@ public class SecondaryController {
 	public static int len = currOrder.length;
 	
     public void initialize(){
+    	orderBox.setWrapText(true);
     	if(currOrder[0] == null) {
     		orderBox.appendText("Order is empty.\n");
     	}else {
