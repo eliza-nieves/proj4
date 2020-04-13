@@ -229,12 +229,14 @@ public class PrimaryController {
     		int len = tempArr.size();
     		BuildYourOwn temp;
     		if(len == 0) {
-    			temp = new BuildYourOwn(type,pizzaSize); 
+    			result.appendText("You must choose at least one topping.\n");
+    			//temp = new BuildYourOwn(type,pizzaSize);
     		}else {
     			System.out.println(tempArr.toString());
     			temp = new BuildYourOwn(type,pizzaSize,tempArr);
+    			add(temp);
     		}
-    		add(temp);
+
     	}
     	result.appendText("--Current Order--\n");
     	for(int i = 0; i < length; i ++) {
