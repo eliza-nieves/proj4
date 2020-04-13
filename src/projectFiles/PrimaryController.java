@@ -100,6 +100,8 @@ public class PrimaryController {
     		rmvBtn.setOpacity(.3);
     		clrBtn.setDisable(true);
     		clrBtn.setOpacity(.3);
+    		Image new_img = new Image(getClass().getResourceAsStream("../photos/Deluxe.jpg"));
+    		img.setImage(new_img);
     	}else if(type.equals("Hawaiian")) {
     		names1.getItems().clear();
     		names.getItems().clear();
@@ -117,6 +119,8 @@ public class PrimaryController {
     		rmvBtn.setOpacity(.3);
     		clrBtn.setDisable(true);
     		clrBtn.setOpacity(.3);
+    		Image new_img = new Image(getClass().getResourceAsStream("../photos/Hawaiian.jpg"));
+    		img.setImage(new_img);
     		
     	}else {
     		names1.getItems().clear();
@@ -130,6 +134,8 @@ public class PrimaryController {
     		rmvBtn.setOpacity(1);
     		clrBtn.setDisable(false);
     		clrBtn.setOpacity(1);
+    		Image new_img = new Image(getClass().getResourceAsStream("../photos/Build Your Own.jpg"));
+    		img.setImage(new_img);
     	}
     	
     }
